@@ -1,0 +1,216 @@
+* {
+    padding: 0px;
+    border: none;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    font-family: Poppins, serif;
+    margin: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    background: #fff;
+    background: linear-gradient(to right, #ffcc80, #ff7f50);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px ;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+    display: flex;
+}
+
+.name p {
+    margin-top: 10px;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+nav p {
+    margin: 0 0 0 10px;
+    color: #666;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.nav-links {
+    padding-top: 10px;
+}
+
+.nav-links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #FFA500; 
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background: #fff; */
+}
+
+.info {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 800px;
+    width: 100%;
+    margin: 50px auto;
+    text-align: left;
+}
+
+.main-content h2 {
+    font-size: 2.5rem;
+    /* font-family: 'Montserrat', sans-serif; */
+    margin-bottom: 30px;
+    color: #FFA500; 
+    text-align: center;
+    border-bottom: 3px solid #FFA500;
+    padding-bottom: 15px;
+}
+
+.main-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Sections */
+/* .section {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 30px 0;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.section h3 {
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    color: #4169E1;  Blue, another color from your home page
+} */
+
+/* Skills and Interests */
+/* .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    background: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+} */
+
+.icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #20B2AA;  /* Teal, another color from your home page */
+}
+
+/* Call to Action */
+/* .cta {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #FFA500;
+    border: 3px solid #FF8C00;
+}
+
+.cta-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+} */
+
+footer {
+    background-color: hsl(0, 0%, 94%);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin-top: 10px ;
+
+}
+
+footer div {
+    margin: 10px;
+}
+
+footer h2 {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .nav-links {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .info {
+        padding: 30px 20px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}

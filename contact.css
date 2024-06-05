@@ -1,0 +1,244 @@
+* {
+    padding: 0px;
+    border: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Poppins, serif;
+    margin: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    background: #fff;
+    /* background: linear-gradient(to right, #8a2be2, #d8bfd8); */
+    /* background: linear-gradient(to right, #80ffff, #00cccc); */
+    background: linear-gradient(to right, #b2ffff, #48d1cc);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: left; 
+    padding: 20px 100px 20px 20px ;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    gap:20px;
+    
+}
+
+.name{
+    display: flex;
+    }
+   
+   .name p{
+       margin-top: 10px;
+   }
+   nav h1 {
+       margin: 0;
+       font-size: 1.8rem;
+       /* text-align: left; */
+   }
+   
+   nav p {
+       margin: 0 0 0 10px;
+       color: #666;
+       font-size: 0.9rem; 
+       font-style: italic; 
+   }
+   .nav-links{
+       /* border: 1px solid #000; */
+       padding-top: 10px;
+   
+   }
+   .nav-links a {
+       margin-left: 15px;
+       text-decoration: none;
+       color: #333;
+       
+      
+   }
+ /* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+} */
+
+.container p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.info h2 {
+    font-size: 2.5rem;
+    /* font-family: 'Montserrat', sans-serif; */
+    margin-bottom: 30px;
+ /* background-color: cornflowerblue; */
+    color: #48d1cc; 
+    text-align: center;
+    border-bottom: 3px solid #48d1cc;
+    padding-bottom: 15px;
+}
+
+/* .info {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  } */
+  
+  .info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  /* input[type=text],input[type=email],textarea{
+    width: 10%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: bor;
+    border: 1px solid black;
+    color: black;
+  } */
+  input[type="text"], 
+input[type="email"], 
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+  label{
+    display:block;
+    margin-bottom: 5px; 
+    font-weight: bold;
+  }
+  textarea {
+    resize: vertical;
+    height: 120px;
+  }
+  /* textarea {
+    resize: vertical;
+    border: 1px solid black;
+    
+}  */
+  /* .text-field{
+    text-align: center;
+  } */
+
+  footer {
+    background-color: hsl(0, 0%, 94%);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    justify-content: space-around; 
+    align-items: center;
+    width: auto;
+    bottom: 0;
+}
+footer div {
+    margin-bottom: 10px;
+}
+/* Form Styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .info {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .row {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .text-field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"], 
+  input[type="email"], 
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 120px;
+  }
+  
+  button {
+    background-color: cyan;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 250px;
+  text-align: center;
+  }
+  /* .submit{ background-color: cyan;} */
+ 
+  
+  /* Responsive Adjustments */
+  @media (max-width: 600px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+/* .subtitle {
+    color: #666;
+    margin-top: 0.5rem;
+} */
+/* form {
+    display: flex;
+    flex-direction: column;
+}
+.form-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+button {
+    align-self: flex-end;
+    background-color: #FFA500;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+} */

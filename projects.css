@@ -1,0 +1,219 @@
+*{
+    padding:0px;
+    border: none;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, serif;
+    margin: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    background: #fff;
+    /* background: linear-gradient(to right, #8a2be2, #d8bfd8); */
+    background: linear-gradient(to left, #0606e4, #ADD8E6);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: left; 
+    padding: 20px 100px 20px 20px ;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    gap:20px;
+    
+}
+.name{
+ display: flex;
+ }
+
+.name p{
+    margin-top: 10px;
+}
+nav h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    /* text-align: left; */
+}
+
+nav p {
+    margin: 0 0 0 10px;
+    color: #666;
+    font-size: 0.9rem; 
+    font-style: italic; 
+}
+.nav-links{
+    /* border: 1px solid #000; */
+    padding-top: 10px;
+
+}
+.nav-links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+    
+   
+}
+
+/* .background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+} */
+
+/* .info {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 800px;
+    width: 100%;
+    margin: 50px auto;
+    text-align: left;
+} */
+
+.info h2 {
+    font-size: 2.5rem;
+    /* font-family: 'Montserrat', sans-serif; */
+    margin-bottom: 30px;
+ /* background-color: cornflowerblue; */
+    color: cornflowerblue; 
+    text-align: center;
+    border-bottom: 3px solid cornflowerblue;
+    padding-bottom: 15px;
+    
+}
+
+.main-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+}
+/* details */
+/* ... (keep the existing styles) ... */
+
+/* Updated Background and Info styles */
+.background {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .info {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .main-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+  }
+  
+  .detail {
+    background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  }
+  
+  .detail:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .detail img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .detail-info {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .detail h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .detail p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    flex-grow: 1;
+  }
+  
+  .detail a {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #0078d7;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-align: center;
+    align-self: flex-start; 
+  }
+  
+  .detail a:hover {
+    background-color: #005ba1;
+    text-decoration: none;
+  }
+  
+  /* Add this new style for the "See All Projects" link */
+  .see-all-projects {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    color: #0078d7;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .see-all-projects:hover {
+    text-decoration: underline;
+  }
+  
+  /* ... (keep the rest of the styles) ... */
+
+footer {
+    background-color: hsl(0, 0%, 94%);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    /* position: absolute; */
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center;
+    width: 100vw;
+    bottom: 0;
+}
+footer div {
+    margin-bottom: 10px;
+}
